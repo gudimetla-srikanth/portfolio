@@ -19,23 +19,21 @@
     display: flex;
     justify-content: center;
     align-items: center;
-
 }
 
 .home_left img {
     height: 80vh;
     width: 50vw;
     object-fit: cover;
-    border-radius: 20px;
 }
 
 .home_right {
-    margin-left: 20px;
     flex: 1;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    flex-wrap: wrap;
     gap: 20px;
 }
 
@@ -67,7 +65,13 @@
         color: red;
     }
 
+    .home_icon:hover {
+        color: rgb(16, 19, 184);
+        cursor: pointer;
+        font-size: 50px;
+    }
+
     .home_left img {
-        width: 80vw;
+        width: 85vw;
     }
 }
