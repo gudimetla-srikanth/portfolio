@@ -2,17 +2,18 @@
     position: fixed;
     bottom: 0px;
     width: 100%;
-    padding: 30px 20px;
+    background-color: aliceblue;
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 25px;
-    background-color: aliceblue;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 20px 0px;
     flex-direction: column;
 }
 
-@media screen and (min-width:0px) and (max-width:600px) {
-    .footer h5 {
-        font-size: 20px;
-    }
+.contact {
+    font-weight: 800;
 }
+
+@media screen and (min-width:0px) and (max-width:600px) {}
