@@ -10,7 +10,7 @@ export default function Navabar() {
 
             <div className="navbar_wrapper">
                 <div className="nav_center">
-                    <h1>myportfolio.</h1></div>
+                    <h1>Srikanth.</h1></div>
                 <div className="nav_center res1">
                     <div className="nav_home"><Link to='/' className='link'>Home</Link></div>
                     <div className="nav_home"><Link to='/projects' className='link'>Projects</Link></div>

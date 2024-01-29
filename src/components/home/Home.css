@@ -62,16 +62,18 @@
     .home_social {
         margin: 20px 0px;
         gap: 5px;
-        color: red;
+        color: rgb(3, 3, 3);
     }
 
     .home_icon:hover {
-        color: rgb(16, 19, 184);
+        color: rgb(39, 10, 135);
         cursor: pointer;
         font-size: 50px;
     }
 
     .home_left img {
         width: 85vw;
+        height: 38vh;
+        border-radius: 50%;
     }
 }

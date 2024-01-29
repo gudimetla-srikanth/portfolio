@@ -88,7 +88,7 @@ export const data = [{
 export const projects = [{
     name: "e-commerce (React Js)",
     pImage: "https://tse1.mm.bing.net/th?id=OIP.KLW1voD80M-187lfXszJ4QHaEV&pid=Api&P=0&h=180",
-    link: "https://e-commerce-reactjs-seven.vercel.app/"
+    link: "https://e-commerce-reactjs-sigma.vercel.app/"
 },
 {
     name: "login system (MERN)",

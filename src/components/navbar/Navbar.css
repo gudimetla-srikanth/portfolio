@@ -2,7 +2,7 @@
     position: sticky;
     top: 0px;
     display: flex;
-    background-color: aliceblue;
+    background-color: antiquewhite;
     justify-content: center;
     align-items: center;
     z-index: 2;
@@ -13,7 +13,7 @@
     position: sticky;
     top: 0px;
     width: 100%;
-    background-color: aliceblue;
+    background-color: antiquewhite;
     display: flex;
     justify-content: space-between;
     align-items: center;

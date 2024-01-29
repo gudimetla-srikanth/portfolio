@@ -2,18 +2,27 @@
     position: fixed;
     bottom: 0px;
     width: 100%;
-    background-color: aliceblue;
+    background-color: antiquewhite;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
+    font-size: 30px;
     gap: 10px;
     padding: 20px 0px;
     flex-direction: column;
 }
 
-.contact {
-    font-weight: 800;
+.email {
+    color: blue;
 }
 
-@media screen and (min-width:0px) and (max-width:600px) {}
+@media screen and (max-width:600px) {
+    .footer .contact {
+        font-size: 20px;
+    }
+
+    .footer .email {
+        font-size: 20px;
+    }
+}

@@ -66,13 +66,17 @@
     font-weight: 800;
 }
 
-@media screen and (min-width:200px) and (max-width:600px) {
+@media screen and (min-width:0px) and (max-width:600px) {
     .skill_top h2 {
-        font-size: 20px;
+        font-size: 30px;
     }
 
     .skillset_data {
-        margin: 5px 5px;
+        margin: 5px 0px;
+    }
+
+    .skill_item {
+        width: 70vw;
     }
 
     .skillset_data {
